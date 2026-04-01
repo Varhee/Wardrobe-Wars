@@ -86,7 +86,3 @@ Built by a group of first-year Computer Science students at the **University of 
 - A leaderboard of top-rated outfits
 
 ---
-
-## 📄 License
-
-This project was made for educational purposes. Feel free to fork it, build on it, or use it as inspiration.
