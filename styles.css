@@ -1,0 +1,65 @@
+body {
+    background-image: url('bgIMG.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    text-align: center;
+}
+
+#uploadBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #ffffff13;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#imageContainer {
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#uploadedImage {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+/* Rating Stars */
+#ratingContainer {
+    margin-top: 10px;
+}
+
+.star {
+    font-size: 30px;
+    cursor: pointer;
+    color: gray;
+}
+
+.star.selected {
+    color: gold;
+}
+
+#deleteBtn {
+    display: block;
+    margin-top:20px;
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.079);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
